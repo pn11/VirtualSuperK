@@ -31,5 +31,6 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-
+Assets/GoogleVR
 Assets/GoogleCardboard.meta
+Assets/Plugins
