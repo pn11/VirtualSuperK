@@ -8,12 +8,16 @@ function Start () {
 }
 
 function Update () {
+//if (GvrController.State != GvrConnectionState.Connected) {
+//      controllerPivot.SetActive(false);
+//    }
+// transform in Mac/Linux
 	var x : float = Input.GetAxis("Horizontal");
 	var z : float = Input.GetAxis("Vertical");
 
 	if (Input.GetButton("Fire1") || Input.GetKey("left ctrl") || Input.GetKey("left alt")){ 
 	//https://docs.unity3d.com/ScriptReference/Transform.Rotate.html
-		transform.Rotate(z*1.0, x*1.0, 0);
+		transform.Rotate(z*5.0, x*5.0, 0);
 	}
 	else if (Input.GetKey("left shift")){ 
 		transform.Translate(0, z*1.0, 0);
