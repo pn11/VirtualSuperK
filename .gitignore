@@ -31,7 +31,7 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-Assets/GoogleVR
+Assets/GoogleVR/DemoScenes
 Assets/GoogleCardboard.meta
 Assets/Plugins
 Assets/UnityChan
