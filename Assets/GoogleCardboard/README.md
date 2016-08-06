@@ -1,1 +1,0 @@
-Put GoogleCardboard SDK here.

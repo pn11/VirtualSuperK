@@ -31,5 +31,11 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-
+Assets/GoogleVR/DemoScenes
 Assets/GoogleCardboard.meta
+Assets/Plugins
+Assets/UnityChan
+Assets/Standard Assets
+Assets/WebPlayerTemplates
+
+
